@@ -1,7 +1,7 @@
 name: Issue Listener
 on:
   issues:
-    types: [opened]
+    types: [opened, reopened]
 jobs:
   label_issue:
     runs-on: ubuntu-latest
